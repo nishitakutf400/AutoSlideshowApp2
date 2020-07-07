@@ -142,6 +142,7 @@ class MainActivity : AppCompatActivity() {
                 Button1.isEnabled = true
                 Button2.isEnabled = true
                 mTimer!!.cancel()
+                mTimer = null
             }
         }
 
